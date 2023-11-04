@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:orange;
+    padding: 2vh;
+    margin-bottom: 4vh;
+}
+.content{
+    display: flex;
+    text-align: center;
+}
+
+.leftbox{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    flex-grow: 1;
+    width: 5.5vw;
+    display: inline-block;
+}
+
+.rightbox{
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    overflow: hidden;
+    flex-grow: 2;
+    width: 20vw;
+    display: inline-block;
+    background-color: orange;
+
+}
+
+.center{
+    display: inline-block;
+   text-align: justify;
+   flex-grow: 2;
+   color:rgb(226, 228, 227);
+   background-color: #23326A;
+   opacity: .6;
+   padding-left: 5vw;
+   padding-right: 5vw;
+   width: 55vw;
+   
+}
+.center h2{
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+
+.leftbox a{
+    display: block;
+}
+.links a{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: #FABB23;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.logo{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(244, 240, 255);
+}
+
+.leftbox a{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-decoration: none;
+    color: #8e3b22;
+    font-weight: 900;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+    margin-top:5vh;
+
+}
+.rightbox img{
+    width: 45vh;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5vh;
+}
+.container{
+    display: flex;
+    justify-content: space-around;   
+    background-image: url(naruto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.leftbox,.rightbox,.center{
+    display: inline-block;
+}
